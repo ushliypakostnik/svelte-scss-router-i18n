@@ -21,6 +21,8 @@
     "tinro": "^0.3.3"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "@rollup/plugin-json": "^4.1.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-i18n": "^3.0.4"
   }
 }

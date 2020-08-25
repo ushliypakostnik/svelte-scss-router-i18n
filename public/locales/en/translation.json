@@ -1,0 +1,13 @@
+{
+  "views": {
+    "main": {
+      "name": "Main",
+      "title": "Welcome to Svelte using i18n!!!"
+    },
+    "page404": {
+      "name": "404",
+      "title": "Page not found!"
+    }
+  }
+}
+

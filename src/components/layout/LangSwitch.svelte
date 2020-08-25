@@ -1,12 +1,15 @@
 <script>
-  import { language } from '../../store/utilities.js';
+  import { locale } from 'svelte-i18n';
   import { LANGUAGES } from '../../store/constants';
 
-  const LANG_SWITCH_CLASS = 'language-switch';
+  const NAME = 'language-switch';
+
+  let active = $locale === LANGUAGES[0].name;
+  locale.subscribe(() => active = !active);
 
   const toogleButtonState = () => {
-    const lang = $language === LANGUAGES[0] ? LANGUAGES[1] : LANGUAGES[0];
-    language.set(lang);
+    const language = $locale === LANGUAGES[0].name ? LANGUAGES[1].name : LANGUAGES[0].name;
+    locale.set(language);
   };
 </script>
 
@@ -67,12 +70,12 @@
 </style>
 
 <button
-  id={LANG_SWITCH_CLASS}
+  id={NAME}
   type="button"
-  class="{LANG_SWITCH_CLASS} {$language === LANGUAGES[0] ? `${LANG_SWITCH_CLASS}--active` : ''}"
+  class="{NAME} {active ? `${NAME}--active` : ''}"
   on:click={toogleButtonState}
 >
-  <div class={`${LANG_SWITCH_CLASS}__active`} />
+  <div class={`${NAME}__active`} />
   <ul>
     <li>{LANGUAGES[0].name}</li>
     <li>{LANGUAGES[1].name}</li>
