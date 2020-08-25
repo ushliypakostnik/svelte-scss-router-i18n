@@ -8,7 +8,7 @@
   locale.subscribe(() => active = !active);
 
   const toogleButtonState = () => {
-    const language = $locale === LANGUAGES[0].name ? LANGUAGES[1].name : LANGUAGES[0].name;
+    const language =  $locale === LANGUAGES[0].name ? LANGUAGES[1].name : LANGUAGES[0].name;
     locale.set(language);
   };
 </script>

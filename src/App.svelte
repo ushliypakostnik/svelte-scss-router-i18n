@@ -10,7 +10,7 @@
   import Home from "components/views/Home.svelte";
   import Page404 from "components/views/Page404.svelte";
 
-  import { isLoading } from 'svelte-i18n'
+  import { isLoading } from 'svelte-i18n';
 </script>
 
 <style lang="scss" global>
