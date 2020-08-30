@@ -1,6 +1,8 @@
 <script>
   import { _ } from 'utils/i18n.js';
 
+  const eslintTest3 = 1
+
   /* eslint-disable-next-line */
   let $_;
 </script>

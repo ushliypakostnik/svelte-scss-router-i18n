@@ -64,7 +64,7 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
     $ npm run eslint
 
-Запуск статического анализатора стиоей
+Запуск статического анализатора стилей SCSS
 
     $ npm run stylelint
 

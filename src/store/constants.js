@@ -10,4 +10,6 @@ export const LANGUAGES = [
 ];
 
 /* eslint-disable-next-line */
-const test = 1;
+const eslintTest = 1;
+
+const eslintTest2 = 1
