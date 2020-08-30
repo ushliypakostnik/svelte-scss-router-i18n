@@ -57,6 +57,22 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 "start": "sirv public --single"
 ```
 
+
+## Стиль кода
+
+Запуск статического анализатора ES
+
+    $ npm run eslint
+
+Запуск статического анализатора стиоей
+
+    $ npm run stylelint
+
+Отформатировать код
+
+    $ npm run format
+
+
 ## Using TypeScript
 
 This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
