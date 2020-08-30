@@ -1,21 +1,24 @@
 <script>
-  /*
-   * More details about Tinro router:
-   * https://github.com/AlexxNB/tinro
-   */
-  import { Route } from "tinro";
+  //
+  // More details about Tinro router:
+  // https://github.com/AlexxNB/tinro
+  //
+  import { Route } from 'tinro';
 
-  import Loader from "components/utils/Loader.svelte";
-  import Header from "components/layout/Header.svelte";
-  import Home from "components/views/Home.svelte";
-  import Page404 from "components/views/Page404.svelte";
+  import Loader from 'components/utils/Loader.svelte';
+  import Header from 'components/layout/Header.svelte';
+  import Home from 'components/views/Home.svelte';
+  import Page404 from 'components/views/Page404.svelte';
 
   import { isLoading } from 'svelte-i18n';
+
+  /* eslint-disable-next-line */
+  let $isLoading;
 </script>
 
 <style lang="scss" global>
   /* Import global styles only in to the root component */
-  @import "styles/_main";
+  @import 'styles/_main';
 
   body,
   html {

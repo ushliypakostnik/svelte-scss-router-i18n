@@ -29,8 +29,13 @@
         align-items: center;
 
         a {
-          @include text($font-family__sans, $font-size--normal, $font-weight__sans__regular);
+          @include text(
+            $font-family__sans,
+            $font-size--normal,
+            $font-weight__sans__regular
+          );
 
+          // stylelint-disable selector-max-compound-selectors
           & + a {
             margin-left: $gutter * 2;
           }
@@ -40,17 +45,10 @@
   }
 </style>
 
-<header
-  id="{HEADER_CLASS}"
-  class="{HEADER_CLASS}"
-  role="banner"
->
+<header id={HEADER_CLASS} class={HEADER_CLASS} role="banner">
   <div class="container">
     <div class={`${HEADER_CLASS}__right`}>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/fsgdfgdfhgdfg">404</a>
-      </nav>
+      <nav><a href="/">Home</a> <a href="/fsgdfgdfhgdfg">404</a></nav>
       <LangSwitch />
     </div>
   </div>

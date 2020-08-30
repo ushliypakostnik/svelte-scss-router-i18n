@@ -21,8 +21,8 @@
   }
 </style>
 
-<div class="{`${NAME}__wrapper`}">
-  <div class="{NAME}">
+<div class={`${NAME}__wrapper`}>
+  <div class={NAME}>
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
           from="0 25 25"
           to="360 25 25"
           dur="0.4s"
-          repeatCount="indefinite"/>
+          repeatCount="indefinite" />
       </path>
     </svg>
   </div>

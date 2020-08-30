@@ -1,5 +1,8 @@
 <script>
   import { _ } from 'utils/i18n.js';
+
+  /* eslint-disable-next-line */
+  let $_;
 </script>
 
 <div class="center-block">

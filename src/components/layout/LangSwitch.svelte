@@ -5,10 +5,11 @@
   const NAME = 'language-switch';
 
   let active = $locale === LANGUAGES[0].name;
-  locale.subscribe(() => active = !active);
+  locale.subscribe(() => (active = !active));
 
   const toogleButtonState = () => {
-    const language =  $locale === LANGUAGES[0].name ? LANGUAGES[1].name : LANGUAGES[0].name;
+    const language =
+      $locale === LANGUAGES[0].name ? LANGUAGES[1].name : LANGUAGES[0].name;
     locale.set(language);
   };
 </script>
@@ -73,8 +74,7 @@
   id={NAME}
   type="button"
   class="{NAME} {active ? `${NAME}--active` : ''}"
-  on:click={toogleButtonState}
->
+  on:click={toogleButtonState}>
   <div class={`${NAME}__active`} />
   <ul>
     <li>{LANGUAGES[0].name}</li>

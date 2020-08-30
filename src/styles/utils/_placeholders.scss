@@ -4,10 +4,12 @@
 
 %background {
   &--black {
-    background: $colors__black
+    background: $colors__black;
   }
 
-  &--white {background: $colors__white}
+  &--white {
+    background: $colors__white;
+  }
 }
 
 %scroll-optimization {
