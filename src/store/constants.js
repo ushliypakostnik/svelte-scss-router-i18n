@@ -8,8 +8,3 @@ export const LANGUAGES = [
     name: 'ru',
   },
 ];
-
-/* eslint-disable-next-line */
-const eslintTest = 1;
-
-const eslintTest2 = 1

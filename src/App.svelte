@@ -11,9 +11,6 @@
   import Page404 from 'components/views/Page404.svelte';
 
   import { isLoading } from 'svelte-i18n';
-
-  /* eslint-disable-next-line */
-  let $isLoading;
 </script>
 
 <style lang="scss" global>
