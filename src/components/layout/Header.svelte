@@ -48,7 +48,10 @@
 <header id={HEADER_CLASS} class={HEADER_CLASS} role="banner">
   <div class="container">
     <div class={`${HEADER_CLASS}__right`}>
-      <nav><a href="/">Home</a> <a href="/fsgdfgdfhgdfg">404</a></nav>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/error">404</a>
+      </nav>
       <LangSwitch />
     </div>
   </div>
