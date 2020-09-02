@@ -1,0 +1,20 @@
+/* Theme tunning: for full list ov variables visit the https://alexxnb.github.io/svelte-docs/theming */
+
+:root{
+
+    --somevar: #ff3e00;
+
+}
+
+header {
+    background: #000000;
+}
+
+header section li a {
+    color: #ffffff;
+}
+
+img[title="Levon Gambaryan"] {
+    max-width: 350px;
+    margin: 50px auto 50px 0;
+}

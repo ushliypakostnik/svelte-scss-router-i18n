@@ -71,6 +71,15 @@ Running the SCSS Styles Static Analyzer
 Format the code
 
     $ npm run format
+    
+    
+## Documentation
+
+    $ cd dosc
+    $ npm run dev
+    
+Read more: [svelte-docs](https://alexxnb.github.io/svelte-docs).
+
 
 
 ## Using TypeScript
