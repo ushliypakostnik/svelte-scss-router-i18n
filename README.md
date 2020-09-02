@@ -1,6 +1,6 @@
 # Svelte with Router, Sass and i18n starter
 
-Минимальный проект для быстрой стилизации с локализацией.
+A minimal project for fast styling with localization.
 
 ## svelte app
 
@@ -58,17 +58,17 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ```
 
 
-## Стиль кода
+## Code style
 
-Запуск статического анализатора ES
+Starting ES Static Analyzer
 
     $ npm run eslint
 
-Запуск статического анализатора стилей SCSS
+Running the SCSS Styles Static Analyzer
 
     $ npm run stylelint
 
-Отформатировать код
+Format the code
 
     $ npm run format
 
@@ -86,6 +86,7 @@ Or remove the script via:
 ```bash
 rm scripts/setupTypeScript.js
 ```
+
 
 ## Deploying to the web
 
