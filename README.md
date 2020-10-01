@@ -78,6 +78,11 @@ Format the code
     $ cd dosc
     $ npm run dev
     
+Deploy dosc on Github Pages of repository:
+  
+    $ cd dosc
+    $ npm run deploy
+    
 Read more: [svelte-docs](https://alexxnb.github.io/svelte-docs).
 
 
